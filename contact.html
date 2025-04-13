@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Artec Nepal - Leading construction company providing services in engineering, construction, property valuation, and more.">
+    <meta name="keywords" content="Construction, Engineering, Property Valuation, Consultancy, Nepal">
+    <title>ArtecNepal - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logoart.png" alt="ArtecNepal Logo">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Contact Section -->
+    <section class="contact-us">
+        <div class="landing-text">
+        <h2>Let Us Serve You</h2>
+        <h1>Contact Us</h1>
+        <p>We will be very pleased if you reach out to us with any type of construction query.</p>
+        </div>
+
+        <div class="service-divider4"></div>
+
+        <!-- Planning to Build Section -->
+        <div class="planning-build">
+            <h3>Planning To Build?</h3>
+            <p>We are ready to provide all sorts of services that you need to build your dreams.</p>
+            <div class="contact-info">
+                <div>
+                    <h4>Call Us</h4>
+                    <p>+977 9824123698</p>
+                </div>
+                <div>
+                    <h4>Send Us Email</h4>
+                    <p>info@artecnepal.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="service-divider4"></div>
+
+        <!-- Feedback Form Section -->
+        <div class="feedback-form">
+            <h3>Have Feedback?</h3>
+            <p>Instead of focusing on the competition, focus on the customer. Your feedback is highly appreciated!</p>
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="contact">Contact No.</label>
+                <input type="text" id="contact" name="contact" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        </section>
+        <!-- Office Hours Section -->
+    <section class="services-section2">
+        <div class="services-content">
+            <h2>Our Office Hours</h2>
+            <p>Sunday-Friday, 10AM – 5PM</p>
+        
+        </div>
+    </section> </section> 
+
+    <!-- Let's Build Section -->
+    <section class="cta">
+        <div class="cta-content">
+            <h2>Lets Build!!</h2>
+            <p>The whole difference between construction and creation is exactly this: that a thing constructed can only be loved after it is constructed, but a thing created is loved before it exists.</p>
+            <a href="mailto:contact@artecnepal.com" class="cta-button">Send Us Email</a>
+            <p class="cta-call">Or Call Us : +977 061444736</p>
+
+            <!-- Social Media Links -->
+            <div class="social-container">
+                <a href="https://facebook.com" target="_blank" class="social-link">
+                    <img src="Images/facebook.png" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://instagram.com" target="_blank" class="social-link">
+                    <img src="Images/instagram.png" alt="Instagram" class="social-icon">
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="social-link">
+                    <img src="Images/linkedin.png" alt="LinkedIn" class="social-icon">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Artec Nepal. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript for active navigation highlight -->
+    <script>
+        // Get the current URL path (e.g., /about.html)
+        const currentPath = window.location.pathname;
+
+        // Select all navigation links
+        const navLinks = document.querySelectorAll('nav ul li a');
+
+        // Loop through links to find the active page
+        navLinks.forEach(link => {
+            if (link.getAttribute('href') === currentPath) {
+                link.classList.add('active');
+            }
+        });
+    </script>
+</body>
+</html>
